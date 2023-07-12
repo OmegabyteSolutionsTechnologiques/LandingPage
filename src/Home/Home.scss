@@ -1,0 +1,113 @@
+
+@use "../variables";
+
+.home_cont {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.home_body {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 20px;
+  padding: 5px;
+  max-width: 1280px;
+}
+
+.home_section_title {
+  width: 100%;
+  font-size: 180%;
+  font-weight: bold;
+  text-align: center;
+  color: #424242;
+  border-bottom: 1px dotted grey;
+  margin-bottom: 10px;
+
+}
+
+.home_section_body {
+  text-align: justify;
+  text-justify: inter-word;
+  background-color: white;
+  padding: 10px;
+}
+
+.home_section_body span {
+  font-weight: bold;
+}
+
+.home_section_body a {
+  color: black;
+  font-size: 120%;
+}
+
+.home_list_cont {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.home_list_row {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 100%;
+}
+
+.home_list_title {
+  text-align: right;
+  font-weight: bold;
+  padding: 10px;  
+  width: 30%;
+}
+
+.home_list_data {
+  text-align: left;
+  padding: 10px;
+  width: 70%;
+}
+
+.home_phone_button {
+  width: 200px;
+  height: 40px;
+  background-color: #424242;
+  color: white;
+  border-radius: 5px;
+  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.3);
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.home_phone_row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 40px;
+}
+
+.home_phone_row_title {
+    text-align: right;
+    font-weight: bold;
+    padding: 10px;
+    width: 100px;
+}
+
+.home_phone_row_data {
+    padding: 10px;
+    width: 200px;
+}
+
+.home_phone_row_data a {
+  text-decoration: none;
+}
