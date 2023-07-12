@@ -37,9 +37,6 @@ const HomePage = (props) =>
 
   };
 
-
-  console.log(phone, rawPhone);
-
   return (
     <div className="home_cont">
       <Header IsDesktop={IsDesktop} />
