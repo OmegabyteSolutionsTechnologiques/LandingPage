@@ -97,7 +97,7 @@ const HomePage = (props) =>
               Trouver des solutions:
             </div>
             <div className="home_list_data">
-              Vous avez un système qui n'est plus supporté? Une base de donnée qui n'a même pas sa page Wikipédia? Un logiciel fabriqué par un stagiaire il y a 25 ans? Nous aimons les défis et sommes disponible pour analyser la situation.
+              Vous avez un système qui n'est plus pris en charge ? Une base de données qui n'a même pas de page Wikipédia ? Un logiciel conçu il y a 25 ans par un stagiaire ? Nous sommes passionnés par les défis et disponibles pour analyser votre situation.
             </div>
           </div>
         </div>
