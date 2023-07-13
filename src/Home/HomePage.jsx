@@ -111,7 +111,7 @@ const HomePage = (props) =>
             </div>
             <div className="home_phone_row_data">
               {phone ? (
-                <a href={"tel:" + rawPhone}>{phone}</a>
+                <a href={"tel:" + rawPhone} aria-label="Numéro de téléphone">{phone}</a>
               ) : (
                   <div className="home_phone_button" onClick={onClickPhone}>
                   Appuyer ici pour afficher
@@ -126,7 +126,7 @@ const HomePage = (props) =>
               Courriel :
             </div>
             <div className="home_phone_row_data">
-              <a href="mailto:info@omegabyte.ca">info@omegabyte.ca</a>
+              <a href="mailto:info@omegabyte.ca" aria-label="Adresse courriel info@omegabyte.ca">info@omegabyte.ca</a>
             </div>
           </div>
         </div>

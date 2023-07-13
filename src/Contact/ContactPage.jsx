@@ -48,7 +48,7 @@ const ContactPage = (props) =>
           </div>
           <div className="contact_phone_row_data">
             {phone ? (
-              <a href={"tel:" + rawPhone}>{phone}</a>
+              <a href={"tel:" + rawPhone} aria-label="Numéro de téléphone">{phone}</a>
             ) : (
                 <div className="contact_phone_button" onClick={onClickPhone}>
                 Appuyer ici pour afficher
