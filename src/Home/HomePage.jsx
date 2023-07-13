@@ -104,6 +104,16 @@ const HomePage = (props) =>
         <div className="home_section_title">
           Contactez-nous
         </div>
+        <div className="home_section_body" style={{ width: "100%" }}>
+          <div className="home_phone_row">
+            <div className="home_phone_row_title">
+              Adresse :
+            </div>
+            <div className="home_phone_row_data">
+              Sainte-Marie, Québec, Canada
+            </div>
+          </div>
+        </div>
         <div className="home_section_body" style={{width: "100%"}}>
           <div className="home_phone_row">
             <div className="home_phone_row_title">
@@ -120,7 +130,7 @@ const HomePage = (props) =>
             </div>
           </div>
         </div>
-        <div className="home_section_body">
+        <div className="home_section_body" style={{ width: "100%" }}>
           <div className="home_phone_row">
             <div className="home_phone_row_title">
               Courriel :

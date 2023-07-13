@@ -41,7 +41,18 @@ const ContactPage = (props) =>
   return (
     <div className="contact_cont">
       <Header IsDesktop={IsDesktop} />
-      <div className="contact_body">
+      <div className="contact_body" style={{ width: "100%" }}>
+        <div className="contact_title">
+          Omegabyte Solutions Technologiques
+        </div>
+        <div className="contact_phone_row">
+          <div className="contact_phone_row_title">
+            Adresse :
+          </div>
+          <div className="contact_phone_row_data">
+            Sainte-Marie, Québec, Canada
+          </div>
+        </div>
         <div className="contact_phone_row">
           <div className="contact_phone_row_title">
             Téléphone :
