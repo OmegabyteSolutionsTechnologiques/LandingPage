@@ -19,7 +19,9 @@ const Header = (props) => {
     return (
       <div className="header_cont">
         <div className="header_cont_logo">
-          <img src={Logo} className="header_logo" alt="Omegabyte" />
+          <NavLink to={"/"}>
+            <img src={Logo} className="header_logo" alt="Omegabyte" />
+          </NavLink>
         </div>
         <div className="header_cont_menu">
             <NavLink to={"/"}
