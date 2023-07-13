@@ -57,7 +57,7 @@ const HomePage = (props) =>
               Développement de logiciel :
             </div>
             <div className="home_list_data">
-              Besoin d'une application interne pour automatiser vos processus ? Nous offrons un service de création sur mesure d'applications de toutes sortes, qu'il s'agisse d'un outil Mobile ou de bureau.
+              Besoin d'une application interne pour automatiser vos processus ? Nous offrons un service de création sur mesure d'applications de toutes sortes, qu'il s'agisse d'un outil Web ou de bureau.
             </div>
           </div>
           <div className="home_list_row">
