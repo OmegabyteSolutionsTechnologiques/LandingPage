@@ -80,7 +80,7 @@ const Data = [
     "Date": "2025-12-27 15:20",
     "Equipe1": "Beauce Nord Lotbinière",
     "Equipe2": "Castors C",
-    "Categorie": null
+    "Categorie": "2019"
   },
   {
     "Emplacement": "St-Georges",
