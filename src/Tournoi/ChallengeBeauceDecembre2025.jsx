@@ -50,12 +50,12 @@ const Data = [
     "Date": "2025-12-27 11:10",
     "Equipe1": "Beauce Sud Bourret",
     "Equipe2": "Castors C",
-    "Categorie": null
+    "Categorie": "2019"
   },
   {
     "Emplacement": "St-Prosper",
     "Date": "2025-12-27 10:00",
-    "Equipe1": "Beauce Nord Cloutier",
+    "Equipe1": "Rapide Beauce Nord",
     "Equipe2": "Castors B",
     "Categorie": "2018"
   },
@@ -63,7 +63,7 @@ const Data = [
   {
     "Emplacement": "St-Georges",
     "Date": "2025-12-27 13:00",
-    "Equipe1": "Griffons",
+    "Equipe1": "Stars Québec",
     "Equipe2": "Patriotes",
     "Categorie": "2018"
   },
@@ -84,8 +84,8 @@ const Data = [
   {
     "Emplacement": "St-Georges",
     "Date": "2025-12-27 16:30",
-    "Equipe1": "Beauce Nord Cloutier",
-    "Equipe2": "Griffons",
+    "Equipe1": "Rapide Beauce Nord",
+    "Equipe2": "Stars Québec",
     "Categorie": "2018"
   },
 
@@ -115,13 +115,13 @@ const Data = [
     "Emplacement": "St-Prosper",
     "Date": "2025-12-28 11:00",
     "Equipe1": "Patriotes",
-    "Equipe2": "Beauce Nord Cloutier",
+    "Equipe2": "Rapide Beauce Nord",
     "Categorie": "2018"
   },
   {
     "Emplacement": "St-Prosper",
     "Date": "2025-12-28 12:10",
-    "Equipe1": "Griffons",
+    "Equipe1": "Stars Québec",
     "Equipe2": "Castors B",
     "Categorie": "2018"
   },
@@ -162,20 +162,20 @@ const Data = [
   {
     "Emplacement": "Beauceville",
     "Date": "2025-12-28 13:50",
-    "Equipe1": "Beauce Nord",
-    "Equipe2": "Beauce Sud",
+    "Equipe1": "Beauce Etchemin",
+    "Equipe2": "Beauce Centre",
     "Categorie": "2020"
   },
   {
     "Emplacement": "Beauceville",
     "Date": "2025-12-28 15:00",
-    "Equipe1": "Finale argent",
+    "Equipe1": "Finale or",
     "Categorie": "2018"
   },
   {
     "Emplacement": "Beauceville",
     "Date": "2025-12-28 16:10",
-    "Equipe1": "Finale or",
+    "Equipe1": "Finale argent",
     "Categorie": "2018"
   },
   {
@@ -407,7 +407,7 @@ export default function ChallengeBeauceDecembre2025() {
               id="tournoi-search"
               type="text"
               value={query}
-              placeholder="Ex: Griffons, Beauce, Thunderbirds…"
+              placeholder="Ex: Stars Québec, Beauce, Thunderbirds…"
               onChange={(e) => setQuery(e.target.value)}
               autoComplete="off"
             />
