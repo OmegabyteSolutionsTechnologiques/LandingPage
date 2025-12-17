@@ -14,7 +14,7 @@ const Data = [
     "Emplacement": "Beauceville",
     "Date": "2025-12-27 10:10",
     "Equipe1": "Thunderbirds",
-    "Equipe2": "Patriotes",
+    "Equipe2": "Patriotes Beauce Nord",
     "Categorie": "2018"
   },
   {
@@ -65,7 +65,7 @@ const Data = [
     "Emplacement": "St-Georges",
     "Date": "2025-12-27 13:00",
     "Equipe1": "Stars Québec",
-    "Equipe2": "Patriotes",
+    "Equipe2": "Patriotes Beauce Nord",
     "Categorie": "2018"
   },
   {
@@ -115,7 +115,7 @@ const Data = [
   {
     "Emplacement": "St-Prosper",
     "Date": "2025-12-28 11:00",
-    "Equipe1": "Patriotes",
+    "Equipe1": "Patriotes Beauce Nord",
     "Equipe2": "Rapides Beauce Nord",
     "Categorie": "2018"
   },
